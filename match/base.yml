@@ -1,0 +1,97 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  - trigger: "sntoe"
+    replace: "snote"
+
+  # Dates
+  - trigger: ":dts"
+    replace: "{{datestamp}}"
+    vars:
+      - name: datestamp
+        type: date
+        params:
+          format: "%Y%m%d"
+
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%B %e, %Y"
+
+  # Addresses
+  - trigger: "addrh"
+    replace: |
+              Randy Ridenour
+              1613 Central Pkwy
+              Norman, Oklahoma 73071
+          
+  - trigger: "addro"
+    replace: |
+              Randy Ridenour, PhD
+              Professor of Philosophy
+              Hobbs School of Theology and Ministry
+              Oklahoma Baptist University
+              215 Montgomery Hall
+              500 W. University Street
+              Shawnee, Oklahoma 74804
+ 
+
+  # Shell commands
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo Hello from your shell"
+
+  # Exams
+  - trigger: ":bhw"
+    replace: "My handwriting is atrocious, so you won't find any substantive comments in your exam. I thought I would email some comments instead."
+
+
+  # Promotion
+  - trigger: ":etv"
+    replace: "Teaching evaluations are excellent."
+
+  - trigger: ":apv"
+    replace: "Candidate engages in good professional development activities."
+
+  # Grading
+  - trigger: ":sp"
+    replace: "Spelling"
+
+  - trigger: ":appt"
+    replace: "https://calendly.com/randy-ridenour/appointment"
+
+  - trigger: ":gj"
+    replace: "Great job!"
+
+  - trigger: ":ew"
+    replace: "Excellent work!"
+
+  - trigger: ":gi"
+    replace: "Good introduction."
+
+  - trigger: ":awk"
+    replace: "Awkward — consider rephrasing."
+
+  - trigger: ":sva"
+    replace: "Subject verb agreement."
+
+    
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
