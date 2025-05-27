@@ -19,3 +19,4 @@ matches:
 
   - trigger: ";gr"
     replace: "Subject verb agreement."
+    
