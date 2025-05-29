@@ -1,22 +1,22 @@
 matches:
-  - trigger: ";gr"
+  - trigger: ";gr;"
     replace: "Spelling"
 
   - trigger: ";appt"
     replace: "https://calendly.com/randy-ridenour/appointment"
 
-  - trigger: ";gr"
+  - trigger: ";gr;"
     replace: "Great job!"
 
-  - trigger: ";gr"
+  - trigger: ";gr;"
     replace: "Excellent work!"
 
-  - trigger: ";gr"
+  - trigger: ";gr;"
     replace: "Good introduction."
 
-  - trigger: ";gr"
+  - trigger: ";gr;"
     replace: "Awkward — consider rephrasing."
 
-  - trigger: ";gr"
+  - trigger: ";gr;"
     replace: "Subject verb agreement."
     
