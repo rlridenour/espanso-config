@@ -1,30 +1,50 @@
 matches:
-- replace: "\U0001F600"
-  trigger: ";grin;"
-- replace: "\U0001F44C"
-  trigger: ";ok;"
-- replace: "\U0001F618"
-  trigger: ";kiss;"
-- replace: "\u263A"
-  trigger: ";smile;"
-- replace: "\U0001F44D"
-  trigger: ";+1;"
-- replace: "\U0001F44E"
-  trigger: ";-1;"
-- replace: "\U0001F937\u200D\u2642\uFE0F"
-  trigger: ":shrug;"
-- replace: "\U0001F644"
-  trigger: ";eyeroll;"
-- replace: "\U0001F44F"
-  trigger: ";clap;"
-- replace: "\U0001F928"
-  trigger: ";raised eyebrow;"
-- replace: "\U0001F64F"
-  trigger: ";pray;"
-- replace: "\U0001F609"
-  trigger: ";wink;"
-- replace: "\U0001F60A"
-  trigger: ";blush;"
-- replace: "\U0001F976"
-  trigger: ";cold;"
-  
+  - trigger: ",.grin"
+    replace: "\U0001F600"
+    
+  - trigger: ",.laughtears"
+    replace: "\U0001F602"
+    
+  - trigger: ",.ok"
+    replace: "\U0001F44C"
+    
+  - trigger: ",.kiss"
+    replace: "\U0001F618"
+        
+  - trigger: ",.smile"
+    replace: "\u263A"
+
+  - trigger: ",.+1"
+    replace: "\U0001F44D"
+
+  - trigger: ",.-1"
+    replace: "\U0001F44E"
+
+  - trigger: ",.shrug"
+    replace: "\U0001F937"
+
+  - trigger: ",.eyeroll"
+    replace: "\U0001F644"
+
+  - trigger: ",.clap"
+    replace: "\U0001F44F"
+
+  - trigger: ",.raised eyebrow"
+    replace: "\U0001F928"
+
+  - trigger: ",.pray"
+    replace: "\U0001F64F"
+
+  - trigger: ",.wink"
+    replace: "\U0001F609"
+
+  - trigger: ",.blush"
+    replace: "\U0001F60A"
+
+  - trigger: ",.cold"
+    replace: "\U0001F976"
+
+  - trigger: ",.rofl"
+    replace: "\U0001F923"
+
+    
