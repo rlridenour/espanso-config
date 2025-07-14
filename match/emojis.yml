@@ -2,7 +2,7 @@ matches:
   - trigger: ",.grin"
     replace: "\U0001F600"
     
-  - trigger: ",.laughtears"
+  - trigger: ",.tears"
     replace: "\U0001F602"
     
   - trigger: ",.ok"
@@ -11,7 +11,7 @@ matches:
   - trigger: ",.kiss"
     replace: "\U0001F618"
         
-  - trigger: ",.smile"
+  - trigger: ",.:)"
     replace: "\U0001F60A"
 
   - trigger: ",.+1"
@@ -29,17 +29,14 @@ matches:
   - trigger: ",.clap"
     replace: "\U0001F44F"
 
-  - trigger: ",.raised eyebrow"
+  - trigger: ",.raise eye"
     replace: "\U0001F928"
 
   - trigger: ",.pray"
     replace: "\U0001F64F"
 
-  - trigger: ",.wink"
+  - trigger: ",.;)"
     replace: "\U0001F609"
-
-  - trigger: ",.blush"
-    replace: "\U0001F60A"
 
   - trigger: ",.cold"
     replace: "\U0001F976"
