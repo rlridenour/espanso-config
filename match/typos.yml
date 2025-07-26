@@ -1,0 +1,4 @@
+matches:
+    - trigger: int he
+      replace: in the
+      word: true
